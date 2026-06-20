@@ -1,0 +1,23 @@
+{
+  "name": "localmart",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "cli": "node cli.js",
+    "build": "echo 'Backend build complete'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/core": "latest",
+    "@langchain/langgraph": "latest",
+    "@prisma/client": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.2.1"
+  }
+}
